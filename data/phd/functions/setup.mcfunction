@@ -7,7 +7,7 @@
 # Installs Player Head Drop Function
 ##########################################
 
-scoreboard objectives add phd.kill playerKillCount
+scoreboard objectives add phd.kills playerKillCount
 scoreboard objectives add phd.deaths deathCount
 
 gamerule commandBlockOutput true
