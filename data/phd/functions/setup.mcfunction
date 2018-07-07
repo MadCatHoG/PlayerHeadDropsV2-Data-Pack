@@ -10,7 +10,7 @@
 scoreboard objectives add phd.kills playerKillCount
 scoreboard objectives add phd.deaths deathCount
 
-gamerule commandBlockOutput true
-gamerule sendCommandFeedback true
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
 
 tellraw @a ["",{"text":"Player Head Drops v2.0","bold":true,"color":"red"},{"text":" ","bold":true,"color":"green"},{"text":"by ","color":"green"},{"text":"MadCat ","bold":true,"color":"green"},{"text":"(Installed)","italic":true,"color":"green"},{"text":"\nVisit ","color":"green"},{"text":"www.youtube.com/MadCatHoG","bold":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://youtube.com/MadCatHoG"}}]
